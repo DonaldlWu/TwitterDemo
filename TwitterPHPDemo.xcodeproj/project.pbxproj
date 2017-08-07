@@ -12,6 +12,7 @@
 		C04160EC1F3300A700D51821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04160EA1F3300A700D51821 /* Main.storyboard */; };
 		C04160EE1F3300A700D51821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04160ED1F3300A700D51821 /* Assets.xcassets */; };
 		C04160F11F3300A700D51821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04160EF1F3300A700D51821 /* LaunchScreen.storyboard */; };
+		C047B90D1F386D5A00709006 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047B90C1F386D5A00709006 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C04160ED1F3300A700D51821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04160F01F3300A700D51821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04160F21F3300A700D51821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C047B90C1F386D5A00709006 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C04160E61F3300A700D51821 /* AppDelegate.swift */,
 				C04160E81F3300A700D51821 /* RegisterViewController.swift */,
+				C047B90C1F386D5A00709006 /* LoginViewController.swift */,
 				C04160EA1F3300A700D51821 /* Main.storyboard */,
 				C04160ED1F3300A700D51821 /* Assets.xcassets */,
 				C04160EF1F3300A700D51821 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C047B90D1F386D5A00709006 /* LoginViewController.swift in Sources */,
 				C04160E91F3300A700D51821 /* RegisterViewController.swift in Sources */,
 				C04160E71F3300A700D51821 /* AppDelegate.swift in Sources */,
 			);
